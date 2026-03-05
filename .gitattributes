@@ -3,28 +3,28 @@
 [attr]lfs filter=lfs diff=lfs merge=binary -text
 [attr]lfstext filter=lfs diff=lfstext merge=lfstext -text
 # Unreal Engine file types.
-MyGitProject.uasset lock
-MyGitProject.umap lock
-MyGitProject.locres lfs
-MyGitProject.locmeta lfs
+*.uasset lock
+*.umap lock
+*.locres lfs
+*.locmeta lfs
 # Steam Audio files
-MyGitProject.phononscene lfs
-MyGitProject.probebox lfs
-MyGitProject.probebatch lfs
-MyGitProject.bakedsources lfs
+*.phononscene lfs
+*.probebox lfs
+*.probebatch lfs
+*.bakedsources lfs
 # Binaries
-MyGitProject.exe lfs
-MyGitProject.dll lfs
-MyGitProject.rcc lfs
+*.exe lfs
+*.dll lfs
+*.rcc lfs
 # FMOD
-MyGitProject.bank lfs
-MyGitProject.wav lfs
-MyGitProject.mp3 lfs
-MyGitProject.ogg lfs
-MyGitProject.flac lfs
+*.bank lfs
+*.wav lfs
+*.mp3 lfs
+*.ogg lfs
+*.flac lfs
 # Icons
-MyGitProject.png lfs
-MyGitProject.ico lfs
-MyGitProject.icns lfs
+*.png lfs
+*.ico lfs
+*.icns lfs
 # Movies
-MyGitProject.bk2 lfs
+*.bk2 lfs
